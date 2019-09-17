@@ -16,10 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:hawdwen/emreditor.github.git master
-
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:hawdwen/emreditor.git master:gh-pages
+git push -f git@github.com:hawdwen/emreditordocs.git master:gh-pages
 
 cd -

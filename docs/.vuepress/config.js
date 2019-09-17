@@ -1,10 +1,10 @@
 module.exports = {
     title: 'EmrEditor  API 接口文档',  // 
     description: '接口文档',
-    base: '/emreditor/',
+    base: '/emreditordocs/',
     lastUpdated: 'Last Updated', // string | boolean
     themeConfig: {
-        repo: 'hawdwen/emreditor',
+        repo: 'hawdwen/emreditordocs',
         nav: [
             { text: '常见命令', link: '/zh/command' },
         ],
